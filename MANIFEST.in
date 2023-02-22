@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include iraste_telangana *.css
+recursive-include iraste_telangana *.csv
+recursive-include iraste_telangana *.html
+recursive-include iraste_telangana *.ico
+recursive-include iraste_telangana *.js
+recursive-include iraste_telangana *.json
+recursive-include iraste_telangana *.md
+recursive-include iraste_telangana *.png
+recursive-include iraste_telangana *.py
+recursive-include iraste_telangana *.svg
+recursive-include iraste_telangana *.txt
+recursive-exclude iraste_telangana *.pyc
