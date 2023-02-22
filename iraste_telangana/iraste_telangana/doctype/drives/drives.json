@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:driver_id",
+ "creation": "2023-02-22 10:26:08.591220",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "status",
+  "driver_id",
+  "name1"
+ ],
+ "fields": [
+  {
+   "fieldname": "driver_id",
+   "fieldtype": "Data",
+   "label": "Driver ID",
+   "unique": 1
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "default": "Active",
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "status"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-02-22 16:59:18.027872",
+ "modified_by": "Administrator",
+ "module": "iraste-telangana",
+ "name": "Drives",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
