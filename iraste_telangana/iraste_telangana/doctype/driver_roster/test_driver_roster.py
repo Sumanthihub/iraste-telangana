@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestDiverRoster(FrappeTestCase):
+class TestDriverRoster(FrappeTestCase):
 	pass
