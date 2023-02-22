@@ -31,7 +31,7 @@
    "fieldname": "driver_id",
    "fieldtype": "Link",
    "label": "Driver ID",
-   "options": "Drives"
+   "options": "Drivers"
   },
   {
    "fieldname": "driver_name",
@@ -51,7 +51,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-02-22 17:11:43.408340",
+ "modified": "2023-02-22 18:48:12.171347",
  "modified_by": "Administrator",
  "module": "iraste-telangana",
  "name": "Driver Roster",
