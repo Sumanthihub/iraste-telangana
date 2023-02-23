@@ -12,7 +12,9 @@
   "depot",
   "driver_name",
   "vehicle_no",
-  "depature_time"
+  "depature_time",
+  "roaster_month",
+  "roaster_year"
  ],
  "fields": [
   {
@@ -47,11 +49,21 @@
    "fieldname": "depature_time",
    "fieldtype": "Time",
    "label": "Depature Time"
+  },
+  {
+   "fieldname": "roaster_month",
+   "fieldtype": "Date",
+   "label": "Roaster Month"
+  },
+  {
+   "fieldname": "roaster_year",
+   "fieldtype": "Date",
+   "label": "Roaster year"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-02-22 18:48:12.171347",
+ "modified": "2023-02-23 09:58:19.004108",
  "modified_by": "Administrator",
  "module": "iraste-telangana",
  "name": "Driver Roster",
