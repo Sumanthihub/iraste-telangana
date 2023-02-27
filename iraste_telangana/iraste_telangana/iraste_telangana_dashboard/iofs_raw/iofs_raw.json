@@ -1,0 +1,21 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "chart": "counts",
+   "width": "Full"
+  }
+ ],
+ "creation": "2023-02-27 10:35:25.851383",
+ "dashboard_name": "Iofs Raw",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2023-02-27 16:46:25.323651",
+ "modified_by": "Administrator",
+ "module": "iraste-telangana",
+ "name": "Iofs Raw",
+ "owner": "Administrator"
+}

@@ -9,7 +9,7 @@
  "field_order": [
   "status",
   "driver_id",
-  "depot",
+  "depot_name",
   "driver_name",
   "vehicle_no",
   "depature_time",
@@ -17,12 +17,6 @@
   "roaster_year"
  ],
  "fields": [
-  {
-   "fieldname": "depot",
-   "fieldtype": "Link",
-   "label": "Depot",
-   "options": "Depot"
-  },
   {
    "default": "Active",
    "fieldname": "status",
@@ -38,7 +32,8 @@
   {
    "fieldname": "driver_name",
    "fieldtype": "Data",
-   "label": "Driver Name"
+   "label": "Driver Name",
+   "unique": 1
   },
   {
    "fieldname": "vehicle_no",
@@ -59,11 +54,18 @@
    "fieldname": "roaster_year",
    "fieldtype": "Date",
    "label": "Roaster year"
+  },
+  {
+   "default": "NIZAMABAD-1",
+   "fieldname": "depot_name",
+   "fieldtype": "Link",
+   "label": "Depot Name",
+   "options": "Depot"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-02-23 09:58:19.004108",
+ "modified": "2023-02-27 10:08:34.586066",
  "modified_by": "Administrator",
  "module": "iraste-telangana",
  "name": "Driver Roster",
