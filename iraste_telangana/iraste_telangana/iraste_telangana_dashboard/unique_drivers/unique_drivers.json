@@ -1,0 +1,21 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "chart": "Driver",
+   "width": "Full"
+  }
+ ],
+ "creation": "2023-02-24 19:25:03.748712",
+ "dashboard_name": "Unique Drivers",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2023-02-27 16:16:40.780932",
+ "modified_by": "Administrator",
+ "module": "iraste-telangana",
+ "name": "Unique Drivers",
+ "owner": "Administrator"
+}

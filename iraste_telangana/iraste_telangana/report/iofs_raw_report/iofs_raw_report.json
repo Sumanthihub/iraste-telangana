@@ -1,0 +1,27 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2023-02-27 13:19:15.976376",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "modified": "2023-02-27 17:00:08.350210",
+ "modified_by": "Administrator",
+ "module": "iraste-telangana",
+ "name": "Iofs Raw Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "select vehicle_num,sum(fcw_count+hmw_count+lldw_count+pcw_count+rldw_count) AS count from `tabIofs Raw` group by vehicle_num  order by  count desc limit 5;\n",
+ "ref_doctype": "Iofs Raw",
+ "report_name": "Iofs Raw Report",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}

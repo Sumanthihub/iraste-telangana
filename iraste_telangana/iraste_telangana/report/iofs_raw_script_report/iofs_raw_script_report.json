@@ -1,0 +1,27 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2023-02-27 17:14:24.514117",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{}",
+ "modified": "2023-02-27 17:14:53.864717",
+ "modified_by": "Administrator",
+ "module": "iraste-telangana",
+ "name": "Iofs Raw script Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Iofs Raw",
+ "report_name": "Iofs Raw script Report",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}

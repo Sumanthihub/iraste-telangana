@@ -1,0 +1,21 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "chart": "lofs Counts",
+   "width": "Half"
+  }
+ ],
+ "creation": "2023-02-24 19:21:47.911524",
+ "dashboard_name": "lofs dashboard",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 1,
+ "is_standard": 1,
+ "modified": "2023-02-24 19:21:47.911524",
+ "modified_by": "Administrator",
+ "module": "iraste-telangana",
+ "name": "lofs dashboard",
+ "owner": "Administrator"
+}

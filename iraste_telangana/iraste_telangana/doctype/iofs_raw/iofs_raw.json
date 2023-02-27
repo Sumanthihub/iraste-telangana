@@ -1,0 +1,131 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-23 10:10:38.078932",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "start_date",
+  "start_time",
+  "depot_name",
+  "column_break_ks2ey",
+  "vehicle_num",
+  "vehicle_model",
+  "distance",
+  "section_break_nirbv",
+  "fcw_count",
+  "hmw_count",
+  "lldw_count",
+  "pcw_count",
+  "rldw_count",
+  "section_break_7ycmb",
+  "iofs_month",
+  "iofs_year"
+ ],
+ "fields": [
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "start_time",
+   "fieldtype": "Time",
+   "label": "Start Time"
+  },
+  {
+   "fieldname": "vehicle_num",
+   "fieldtype": "Data",
+   "label": "Vehicle Num"
+  },
+  {
+   "fieldname": "vehicle_model",
+   "fieldtype": "Data",
+   "label": "vehicle Model"
+  },
+  {
+   "fieldname": "distance",
+   "fieldtype": "Float",
+   "label": "Distance"
+  },
+  {
+   "fieldname": "fcw_count",
+   "fieldtype": "Int",
+   "label": "Fcw Count"
+  },
+  {
+   "fieldname": "hmw_count",
+   "fieldtype": "Int",
+   "label": "Hmw Count"
+  },
+  {
+   "fieldname": "lldw_count",
+   "fieldtype": "Int",
+   "label": "Lldw Count"
+  },
+  {
+   "fieldname": "pcw_count",
+   "fieldtype": "Int",
+   "label": "Pcw Count"
+  },
+  {
+   "fieldname": "rldw_count",
+   "fieldtype": "Int",
+   "label": "Rldw Count"
+  },
+  {
+   "fieldname": "depot_name",
+   "fieldtype": "Link",
+   "label": "Depot Name",
+   "options": "Depot"
+  },
+  {
+   "fieldname": "iofs_month",
+   "fieldtype": "Date",
+   "label": "Iofs Month"
+  },
+  {
+   "fieldname": "iofs_year",
+   "fieldtype": "Date",
+   "label": "Iofs Year"
+  },
+  {
+   "fieldname": "column_break_ks2ey",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_nirbv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_7ycmb",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-02-23 17:16:52.452086",
+ "modified_by": "Administrator",
+ "module": "iraste-telangana",
+ "name": "Iofs Raw",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
